@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Essential Html Tags</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="CSS/favicon.ico">
+  </head>
+  <body>
+  </ol>
+
+          <title>HTML Tags</title>
+
+
+  <ol>
+  <li> Three Different kinds of list :
+    <ol>
+      <li>Ordered list - ol </li>
+         <ol>
+           <li>List is represented in all ordered or unordered by - li </li>
+           <li>Item 1</li>
+           <li>Item 2</li>
+           <li>Item 3</li>
+           </ol>
+      <li>Unordered list - ul </li>
+          <ul>
+            <li>These are represented in simple dot </li>
+            <li>Still need to be written in li "list items"</li>
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>
+      <li>Definition list - dl </li>
+         <dl>
+               <dt>
+                Definition term - dt :
+               </dt>
+                    <dd>Definition description - dd : It provides the description of the term coined above in a paragraph or single line</dd>
+         </dl>
+    </ol>
+  </li>
+
+  <li>quotes
+   <ol>
+      <li>blockquote - represented in simple "blockquote"
+        <blockquote>
+        <p>Inside the blockquote, we need to address the paragraph by p tags. Then use the cite tags for representing who actually quoted the line. In this case, I am typing the content, so I will put my name as cite element</p>
+        <cite>-Clinto Abraham Ayamkudiyil</cite>
+        </blockquote>
+      </li>
+      <li>quotes in semi-colon - q
+        <p>We can simply quote the line in semi colon by using "q" tags & He said <q>nothing is impossible by God's blessing </q> </p>
+      </li>
+   </ol>
+  </li>
+
+  <li>Inline elements
+      <ul>
+        <li><q>q</q> - quotes</li>
+        <li><strong>strong</strong></li>
+        <li><b>b</b> - bold</li>
+        <li>Line breaker is the name. Lets use the <q>br</q>tags <br>right here with help of br without closing tags</li>
+        <li><i>i</i> - italics </li>
+        <li><em>em</em> - emphasis</li>
+        <li>code : This shows the code as it is without reading it & display in single line.
+                          <code>function code() {
+                           var javascript = "interactive language interface";
+                           if {
+                             var a = javascript;
+                             return true;
+                           }
+                           else {
+                             return false;
+                           }
+        }
+                          </code>
+        </li>
+        <li>pre : it shows the exact spacing & style while editing in the code editer. <br> <pre>
+         function code() {
+         var javascript = "interactive language interface";
+         if {
+           var a = javascript;
+           return true;
+         }
+         else {
+           return false;
+         }
+         }
+        </pre></li>
+        <li>"& l t ;" it shows the < tag while "& g t ;" shows the > tag <br>
+            <h4>eg</h4>: &lt;br&gt; is the non inline "line breaker" without any closing tags.
+            <li><small>small</small> - it gives less prominence to the text displayed :<br> <h4>eg:</h4> &lt;small&gt;small&lt;/small&gt; yields the result <small>small</small> </li>
+
+        </li>
+  </ul>
+   </li>
+   <li>Mathematical tag element of HTML
+             <ol>
+
+
+    <li>MathML - &lt;math&gt; another complex math solutions <br> <h3>eg:</h3></li>
+
+    <li> subscripts : <br> <h4>eg</h4>&lt;sub&gt;H2O&lt;/sub&gt; => yields the result H<sub>2</sub>O</li>
+    <li>supscripts : <br> <h4>eg</h4> &lt;sup&gt;2 raise to 2&lt;/sup&gt; => yields the result 2<sup>3<sup>4 <sup>5 <sup>6 <sup>7 <sub>8</sub></sup></sup></sup> </sup></sup> </li>
+              </ol>
+    </li>
+    <li>Date: could be used with &lt;time datetime="2020-11-15"&gt;November 15&lt;/time&gt; yields the result => <time datetime="2020-11-15"> November 15</time></li>
+    <p>computer always follows the date format : YYYY-MM-DD</p>
+    <p>eg:&lt;time datetime="07:00"&gt;7:00 am&lt;/time&gt; yields the result => <time datetime="07:00">7:00 am</time> </p>
+    <p>eg:&lt;time datetime="2020-11-04T19:00"&gt;Wednesday, Nov 4th at 7p&lt;/time&gt; yields the result => <time datetime="2020-11-04T19:00">Wednesday, Nov 4th at 7p</time></p>
+    <p>eg:&lt;time datetime="2020-11-04 19:00-0500"&gt;Wednesday, Nov 4th at 7p&lt;/time&gt; yields the result => <time datetime="2020-11-04 19:00-0500">Wednesday, Nov 4th at 7p</time></p> <br>
+
+    <li>Global Attribute: Which can be applied on any HTML elment
+        <ol>
+          <li>Class Attribute:This could be later targeted on CSS & javascript with that id. Written as &lt;p class="intro"&gt; Write the introduction here & then close the p element &lt;/p&gt;</li>
+          <li>id Attribute : This allows to target a unique element with that id. Written as &lt;p class="intro" id="article-intro"&gt;Write the introduction here & then close the p element &lt;/p&gt;</li>
+          <li>contenteditable : User can edit the content of webpage. Very useful Attribute. But the content edited by customer will be lost when reloaded. <p>eg: &lt;blockquote contenteditable="true"&gt; Add your own quote &lt;/blockquote&gt;</p>
+          <blockquote contenteditable="true">
+            Edit this content to add your own quotes. <br>
+            <cite>-"Wise Man Sayings"</cite>
+          </blockquote>
+          </li>
+          <li>&lt;p lang="en-GB"&gt; : is a language changing Attribute into british english &lt;/p&gt;
+          <p lang="fr">
+            Ce paragraphe est.
+          </p>
+          </li>
+          <li>&lt;p dir="rtl"&gt; : It flows the sentences from right to left. Basically it is a directional Attribute. &lt;/p&gt;</li>
+        </ol></li> <br>
+        <li>ARIA : It helps accessibility to specially disabled people by reading it loud
+        <p>eg</p>
+        <h1 aria-label="Hello World">
+          <div class="grid" aria-hidden="true">
+
+            <span>H</span>
+            <span>e</span>
+            <span>L</span>
+            <span>l</span>
+            <span>o</span>
+
+            <span>W</span>
+           </div>
+        </h1>
+        </li> <br>
+        <li><h3>Attribute</h3>
+          <ul>
+            <li>textarea : this makes the box for editing inside the html
+            <textarea name="<h1>Hello</h1>" rows="8" cols="80"></textarea>
+            <textarea name="World" rows="18" cols="100"></textarea>
+            </li>
+          </ul>
+        </li>
+        <li>Comments : this section inside html helps to read for humans but website will ignore it <br>
+          &lt;!-- This is a example for writing comments in html while ignored by computer
+          <br>and ends by --&gt;
+        </li>
+        <li>Weird Characters :
+          <ol>
+            <li>&copy;</li>
+            <li>&trade;</li>
+            <li>&star;</li>
+            <li>Non breaking space : Clinto&nbsp;Abraham (Mostly used when line is not to break&nbsp;here. And represented by  & nbsp; without any space between &nbsp;&nbsp;&nbsp;ampersand(&))</li>
+          </ol>
+        </li>
+  <li><ol type="A"> type="A" & start="9" along ordered list
+    <li>Motorcycles</li>
+    <li>Cars</li>
+    <ol start="9">
+      <li>Laptop</li>
+      <li>dogs</li>
+    </ol>
+  </ol></li>
+  </ol>
+
+  </body>
+</html>
